@@ -123,6 +123,7 @@ document.getElementById('cupon').addEventListener('click', function (e) {
  } else {
   alert('invalid promo code');
  }
+ document.getElementById('typed-cupon').value = '';
 
 });
 
